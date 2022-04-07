@@ -14,6 +14,9 @@ ou
 
 avec le jar
 
+url:
+> http://localhost:9000/
+
 | user | password |
 |--|--|
 | admin      | admin |
