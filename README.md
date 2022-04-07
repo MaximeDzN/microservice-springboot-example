@@ -4,7 +4,15 @@ Ce projet rassemble plusieurs informations pratique pour la mise en place d'un m
 
 ## Lancement
 
-> mvn spring-boot:run
+> mvn spring-boot:run 
+ 
+sur le projet
+
+ou
+
+>java -jar microservice-0.0.1-SNAPSHOT.jar
+
+avec le jar
 
 | user | password |
 |--|--|
