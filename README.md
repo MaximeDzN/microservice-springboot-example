@@ -2,6 +2,15 @@
 
 Ce projet rassemble plusieurs informations pratique pour la mise en place d'un micro-service.
 
+## Lancement
+
+> mvn spring-boot:run
+
+| user | password |
+|--|--|
+| admin      | admin |
+| user | user |
+
 ## Spring data Rest
 
 Pour faciliter le développement, nous faisons usage de spring data rest qui permet la création automatique des opérations CRUD d'une entité.
