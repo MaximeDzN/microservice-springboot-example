@@ -1,0 +1,19 @@
+ENDPOINTS des outils spring:
+
+swagger: url/v3/api-docs
+swagger-ui: url/swagger-ui.html
+actuator: url/actuator
+
+
+OPTION Requêtes JPA:
+
+pagination : url/endpoint?page=x&size=y   (x représente quelle page afficher, y représente le nombre d'élément par page)
+projection : url/endpoint?projection=n (n est le nom de la projection défini dans l'interface)
+
+
+AVEC SPRING DATA REST: 
+
+si on utilise spring data rest pour créer les endpoints automatiquement du crud, et qu'on ajoute des méthodes findBy... personnalisés, le endpoint devient:
+
+url/endpoint/search/n?u=x (n étant le nom de la méthode findBy..., u étant le nom du paramètre de la méthode modifiable avec l'annotation param(value=""), x étant la valeur que l'on souhaite rechercher  )
+
